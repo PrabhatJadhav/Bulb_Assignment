@@ -1,0 +1,21 @@
+*{
+display: flex;
+}
+button{
+    padding: 10px;
+    margin: 30px;
+    margin-left: 100px;
+    height: 12%;
+    background-color: pink;
+    font-weight: bold;
+}
+.image{
+    margin: 20px;
+    height: 300px;
+    width: 200px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: salmon;
+    transition: 0.8s;
+}
